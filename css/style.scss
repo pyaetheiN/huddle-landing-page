@@ -43,9 +43,10 @@ img{
     font-weight: 700;
     border: none;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
 
     &:hover{
-        opacity: 80%;
+        opacity: 70%;
     }
 }
 .section__content{
@@ -62,15 +63,18 @@ img{
 
 // header
 .header{
-    
+    background: url("../images/bg-hero-desktop.svg");
+    background-position: center;
+    background-color: var(--very-pale-cyan);
+
     .nav{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 1em;
-    display: flex;
-    height: var(--header-height);
-    align-items: center;
-    justify-content: space-between;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 1em;
+        display: flex;
+        height: var(--header-height);
+        align-items: center;
+        justify-content: space-between;
 
         &__btn{
             display: inline-block;
@@ -79,21 +83,16 @@ img{
             border-radius: 25px;
             border: none;
             box-shadow: 0 1px 10px rgba(0,0,0,0.2);
-            
-            a{
-                color: #000;
-                font-family: 'Poppins', sans-serif;
-                font-size: 0.8125rem;
-            }
+            color: var(--very-dark-cyan);
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8125rem;
+            cursor: pointer;
         }
     }
 }
 
 // home
 .home{
-    background: url("../images/bg-hero-desktop.svg");
-    background-position: center;
-    background-color: var(--very-pale-cyan);
 
     &__content{
         grid-template-columns: 1fr 1.2fr;
@@ -215,7 +214,7 @@ img{
 .footer{
     background-color: var(--very-dark-cyan);
     color: rgba(255, 255, 255, 0.9);
-    padding: 10em 0 0;
+    padding: 12em 0 0;
     font-size: 0.8125rem;
 
     &__logo{
@@ -251,6 +250,9 @@ img{
     }
     &__link{
 
+        &:hover{
+            text-decoration: underline;
+        }
         a{
             color: rgba(255, 255, 255, 0.9);
         }

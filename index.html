@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+  <!-- icons links -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -18,16 +19,15 @@
   </style>
 </head>
 <body>
-  <main>
-    <section class="home" id="home">
-      <!-- header -->
-      <header class="header">
-        <nav class="nav">
-          <img src="images/logo.svg" alt="" class="logo nav__logo">
-          <a href="#" class="nav__btn">Try It Free</a>
-        </nav>
-      </header>
-      <!-- home -->
+  <!-- header -->
+  <header class="header">
+    <nav class="nav">
+      <img src="images/logo.svg" alt="" class="logo nav__logo">
+      <a href="#" class="btn nav__btn">Try It Free</a>
+    </nav>
+
+    <!-- home -->
+    <div class="home" id="home">
       <div class="section__content">
         <div class="home__content grid">
           <div class="home__col-1 grid">
@@ -47,9 +47,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
+
+  <main>
+    <!-- about -->
     <section class="about" id="about">
-      <!-- about -->
       <div class="section__content">
         <div class="about__content grid">
           <div class="card card-1 grid">
@@ -92,11 +95,12 @@
         </div>
       </div>
     </section>
+
+    <!-- call to action -->
     <section class="action" id="action">
-      <!-- call to action -->
       <div class="section__content">
         <div class="action__content"> 
-          <h1 class="action__title">Ready To Build Your Community?</h1>        
+          <h2 class="action__title">Ready To Build Your Community?</h1>        
           <a href="#" class="btn action__btn">
             Get Started For Free
           </a>
@@ -104,12 +108,13 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
     <!-- footer -->
     <div class="section__content">
       <div class="footer__content">
         <a href="#">
-          <img src="images/logo-white.svg" alt="" class="logo footer__logo">
+          <img src="images/logo-white.svg" alt="Huddle logo" class="logo footer__logo">
         </a>
         <div class="footer__cols grid">
 

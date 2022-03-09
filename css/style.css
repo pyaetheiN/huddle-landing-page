@@ -45,10 +45,12 @@ img {
   border: none;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
-  opacity: 80%;
+  opacity: 70%;
 }
 
 .section__content {
@@ -64,6 +66,12 @@ img {
 
 .desc {
   font-size: 0.875rem;
+}
+
+.header {
+  background: url("../images/bg-hero-desktop.svg");
+  background-position: center;
+  background-color: var(--very-pale-cyan);
 }
 
 .header .nav {
@@ -90,18 +98,10 @@ img {
   border: none;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
-}
-
-.header .nav__btn a {
-  color: #000;
+  color: var(--very-dark-cyan);
   font-family: 'Poppins', sans-serif;
   font-size: 0.8125rem;
-}
-
-.home {
-  background: url("../images/bg-hero-desktop.svg");
-  background-position: center;
-  background-color: var(--very-pale-cyan);
+  cursor: pointer;
 }
 
 .home__content {
@@ -234,7 +234,7 @@ img {
 .footer {
   background-color: var(--very-dark-cyan);
   color: rgba(255, 255, 255, 0.9);
-  padding: 10em 0 0;
+  padding: 12em 0 0;
   font-size: 0.8125rem;
 }
 
@@ -278,6 +278,10 @@ img {
 
 .footer__col-3 {
   margin: 0 auto;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
 }
 
 .footer__link a {
