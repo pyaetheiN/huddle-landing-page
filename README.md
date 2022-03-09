@@ -1,3 +1,3 @@
 # huddle-landing-page challenge from frontendmentor
 
-i tried all my best on this one
+I tried all my best on this one, especially on the responsiveness of it.
