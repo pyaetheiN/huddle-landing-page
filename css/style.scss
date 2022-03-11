@@ -343,6 +343,7 @@ img{
         text-align: center;
         background: url("../images/bg-hero-mobile.svg");
         background-position: center;
+        background-size: cover;
         background-color: var(--very-pale-cyan);
 
         &__content{
